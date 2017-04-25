@@ -12,6 +12,7 @@ wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key a
 apt-get update
 apt-get -y install git-core curl zlib1g-dev build-essential libssl-dev libreadline-dev libyaml-dev libpq-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev libcurl4-openssl-dev python-software-properties
 apt-get -y install libgdbm-dev libncurses5-dev automake libtool bison libffi-dev
+apt-get -y install imagemagick
 apt-get -y install nodejs
 apt-get -y install postgresql-9.4
 
