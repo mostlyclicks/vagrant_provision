@@ -27,7 +27,7 @@ rvm use 2.1.5 --default
 
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
-gem install rails -v 4.2.10
+gem install rails -v 4.2.7.1
 
 echo "-------------------- creating postgres vagrant role with password vagrant"
 # Create Role and login
