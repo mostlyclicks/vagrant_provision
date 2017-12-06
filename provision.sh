@@ -22,8 +22,11 @@ curl -sSL https://get.rvm.io | bash -s stable
 source /usr/local/rvm/scripts/rvm
 echo "source /usr/local/rvm/scripts/rvm" >> ~/.bashrc
 
-rvm install 2.1.5
-rvm use 2.1.5 --default
+# rvm install 2.1.5
+# rvm use 2.1.5 --default
+
+rvm install 2.2.2
+rvm use 2.2.2 --default
 
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 
